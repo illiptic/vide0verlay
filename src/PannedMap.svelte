@@ -21,9 +21,9 @@
   $: $offsetY = location && height ? location[1] - height / 2 : 0;
   $: containerStyle = `
     background-image: url("/images/${map}");
-    background-size: ${$offsetX ? 2400 : width}px;
-    background-position: -${$offsetX}px -${$offsetY}px ;"
-  `
+    background-position: -${$offsetX}px -${$offsetY}px;
+    background-size: ${$offsetX ? 'unset' : width+'px'};
+  `;
 </script>
 
 <style>

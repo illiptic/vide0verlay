@@ -19,10 +19,9 @@ export default [
     pages: ["rpg.jpg"],
     steps: 1,
   },
-
   {
-    title: "What's the point?",
-    crown: "???",
+    title: "Add text above your head!",
+    crown: "!!!",
   },
   {
     title: "Move around a map",
@@ -39,10 +38,10 @@ export default [
     subTitle: '<a href="https://commons.wikimedia.org/wiki/File:De_Fer_Trier_1692.jpg">source</a>',
     location: [5075, 2650],
     map: 'De_Fer_Trier_1692.jpg'
-  }
+  },
   {
     title: "You can add a simple image on its own too",
     subTitle: '<a href="https://commons.wikimedia.org/w/index.php?curid=45581404">By Rodney Ee - Pacu Jawi Final-45, CC BY 2.0, </a>',
     illustration: "cow_racing.jpg"
-  },
+  }
 ];
