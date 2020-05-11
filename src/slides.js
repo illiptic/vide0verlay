@@ -16,8 +16,9 @@ export default [
   },
   {
     title: "Add a stack of images to go through",
-    pages: ["rpg.jpg"],
-    steps: 1,
+    subTitle: '<a href="https://www.instagram.com/yclub18/">By Kaijyu!</a>',
+    pages: ["kaijyu1.jpg","kaijyu2.jpg","kaijyu3.jpg"],
+    steps: 3,
   },
   {
     title: "Add text above your head!",

@@ -13,16 +13,16 @@ body {
 }
 
 a {
-	color: rgb(0,100,200);
-	text-decoration: none;
-}
-
-a:hover {
+	color: inherit;
 	text-decoration: underline;
 }
 
+a:hover {
+	text-decoration-style: dashed;
+}
+
 a:visited {
-	color: rgb(0,80,160);
+	font-weight: bold;
 }
 
 label {
